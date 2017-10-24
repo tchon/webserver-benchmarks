@@ -1,5 +1,5 @@
 require('strict-mode')(function () {
-	require('./raw.js')
+	require('./vanilla.js')
 	require('./aero.js')
 	require('./koa.js')
 	require('./express.js')
@@ -7,5 +7,5 @@ require('strict-mode')(function () {
 	require('./feathers.js')
 })
 
-require('./koala.js')
+require('./fastify.js')
 require('./restify.js')

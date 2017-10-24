@@ -16,4 +16,4 @@ app.get('/test', function(request, response) {
 	response.end(text)
 })
 
-app.listen(5003)
+app.listen(process.env.PORT || 5003)

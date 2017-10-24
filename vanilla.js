@@ -13,4 +13,4 @@ http.createServer(function(request, response) {
 		response.writeHead(200, headers)
 		response.end(text)
 	}
-}).listen(5000)
+}).listen(process.env.PORT || 5000)

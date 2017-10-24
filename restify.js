@@ -16,4 +16,4 @@ server.get('/test', function(request, response) {
 	response.end(text)
 })
 
-server.listen(5002)
+server.listen(process.env.PORT || 5004)

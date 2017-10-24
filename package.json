@@ -1,30 +1,30 @@
 {
-	"name": "webserver-benchmarks",
-	"version": "0.0.1",
-	"description": "Aero vs. Express vs. Koa vs. Restify vs. Node",
-	"author": "Eduard Urbach <e.urbach@gmail.com> (http://blitzprog.org)",
-	"license": "GPL-3.0",
-	"homepage": "https://github.com/blitzprog/webserver-benchmarks",
-	"dependencies": {
-		"aero": "*",
-		"express": "*",
-		"feathers": "*",
-		"restify": "*",
-		"koa": "*",
-		"koa-router": "*",
-		"koala": "*",
-		"hapi": "*",
-		"bluebird": "*",
-		"strict-mode": "*"
-	},
-	"engines": {
-		"node": ">= 5.0.0"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/blitzprog/webserver-benchmarks.git"
-	},
-	"bugs": {
-		"url": "https://github.com/blitzprog/webserver-benchmarks/issues"
-	}
+  "name": "webserver-benchmarks",
+  "version": "1.0.0",
+  "description": "Aero vs. Express vs. Koa vs. Restify vs. Node",
+  "author": "Eduard Urbach <e.urbach@gmail.com> (http://blitzprog.org)",
+  "license": "GPL-3.0",
+  "homepage": "https://github.com/blitzprog/webserver-benchmarks",
+  "dependencies": {
+    "aero": "*",
+    "bluebird": "*",
+    "express": "*",
+    "fastify": "^0.30.2",
+    "feathers": "*",
+    "hapi": "*",
+    "koa": "*",
+    "koa-router": "*",
+    "restify": "*",
+    "strict-mode": "*"
+  },
+  "engines": {
+    "node": ">= 6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/blitzprog/webserver-benchmarks.git"
+  },
+  "bugs": {
+    "url": "https://github.com/blitzprog/webserver-benchmarks/issues"
+  }
 }
